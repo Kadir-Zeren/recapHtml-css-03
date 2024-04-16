@@ -54,3 +54,13 @@ ul.pseudo li:nth-child(odd) {
 ul.pseudo li:nth-child(even) {
   color: lightsalmon;
 }
+
+ul.pseudo li:hover {
+  background-color: black;
+  cursor: pointer;
+  /* display: inline-block; */
+}
+
+ul.pseudo li:active {
+  background-color: green;
+}
