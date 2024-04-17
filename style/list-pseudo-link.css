@@ -64,3 +64,72 @@ ul.pseudo li:hover {
 ul.pseudo li:active {
   background-color: green;
 }
+
+/* ul.pseudo li:not(odd) {
+  background-color: green;
+} */
+
+input:focus {
+  background-color: tomato;
+  color: white;
+  border: 4px dashed white;
+  outline: none;
+}
+
+/* nav.links a {
+  color: crimson;
+  text-decoration: none;
+}
+
+nav.links a:hover {
+  color: purple;
+  text-decoration: underline;
+} */
+
+nav.links a:link {
+  color: brown;
+}
+
+nav.links a:visited {
+  color: lightpink;
+}
+
+nav.links a:active {
+  color: magenta;
+}
+
+nav.links a:hover {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+.p-elements::first-line {
+  color: red;
+}
+
+.p-elements::first-letter {
+  font-size: 30px;
+}
+
+ul.before-after li::before {
+  content: "👏";
+}
+
+ul.before-after li:nth-child(3)::before {
+  content: "🚘";
+}
+
+ul.before-after li:last-child::after {
+  content: "🚘";
+}
+
+ul.before-after li:nth-child(2)::after {
+  content: " Nice Car";
+  content: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f53a";
+}
+
+ul.before-after li:nth-child(3):hover::after {
+  content: "🚘";
+}
